@@ -19,7 +19,6 @@ body {
 
 .card {
   justify-content: center;
-  position: absolute;
   background-color: white;
   height: 476px;
   width: 336px;
@@ -37,26 +36,26 @@ body {
 }
 
 .tag {
-  gap: 8px;
-  /* padding: 12px 4px; */
+  text-align: center;
   align-items: center;
-  border-radius: 4px;
   font-weight: 800;
 }
 
 .color {
   background-color:hsl(47, 88%, 63%);
- 
+  width: 76px;
+  height: 26px;
+  text-align: center;
+  border-radius: 6px;
 }
 
 .content {
-  gap: 12px;
+  justify-content: center;
 }
 
-.date b {
+.date {
   font-size: 14px;
-  font-weight: 400;
-  
+  font-weight: bold;
 }
 
 .bottom {
@@ -75,3 +74,12 @@ b {
   font-weight: 800;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.para  {
+  font-size: 16px;
+  font-weight: 200;
+}
